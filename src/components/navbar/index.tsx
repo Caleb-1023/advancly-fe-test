@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { SidebarContext } from "../../App";
 import { Link } from "react-router-dom";
 

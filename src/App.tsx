@@ -2,7 +2,7 @@
 import { useState, createContext } from "react";
 import Navbar from "./components/navbar";
 import SideBar, { SideBarItem } from "./components/sidebar";
-import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Dashboard from "./screens/dashboard";
 
 type ExpandedContextType = {
