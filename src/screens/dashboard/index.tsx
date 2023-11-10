@@ -160,7 +160,7 @@ const Dashboard = () => {
       <h1 className="capitalize mb-4 text-2xl font-semibold">
         {name === "" ? "Home" : name}
       </h1>
-      <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10 overflow-auto">
+      <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 overflow-auto">
         {/* <ResponsiveContainer width="100vw" height="100vh"> */}
         <DashboardCard
           icon={
